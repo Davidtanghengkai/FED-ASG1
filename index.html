@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Web App</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="logo">
-            <img src="logo.jpg" alt="Logo"> <!-- Replace with your logo -->
+            <img src="logo.jpg" alt="Logo">
         </div>
         <div class="nav-buttons">
-            <a href="#about-game">About Game</a>
+            <a href="about-game.html">About Game</a>
             <a href="#pre-register-rewards">Pre-register Rewards</a>
             <a href="#pre-register">Pre-register</a>
-            <a href="#credits">Credits</a>
-            <a href="#about-us">About Us</a>
         </div>
     </div>
 
     <!-- Main Content -->
+    <div class="Title">
+        <h1>GOD OF WAR</h1>
+        <h2>EGYPT</h2>
+    </div>
     <div class="content">
-        <h1>GAME NAME</h1>
-        <p>register now to claim exclusive pre-register rewards</p>
+        
+        <p>Are you ready to take on Ra?</p>
+        <button class="signup" id="preRegisterBtn">Ascend to the Skies</button>
     </div>
 
+    <!-- Modal -->
+    <div class="modal" id="preRegisterModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Pre-Register</h2>
+            <p>Enter your details to pre-register and claim exclusive rewards!</p>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit" class="pre-register">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
 </body>
-</html>
+</html> 
