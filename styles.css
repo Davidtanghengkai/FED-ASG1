@@ -7,10 +7,10 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('GoW Egypt.jpg');
-    background-size: 100% 80%;
+    background-size: 100% 100%;
     background-position: center;
     color: white;   
-    overflow: hidden;
+
     
 }
 
@@ -37,7 +37,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
 }
 
@@ -53,7 +53,7 @@ body {
     text-align: center;
     padding: 3%;
     min-height: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
 }
 .content {
     display: flex;
@@ -63,7 +63,7 @@ body {
     text-align: center;
     padding: 10px;
     min-height: 700px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
     top: -20px;
 }
@@ -103,6 +103,9 @@ p {
 .modal {
     display: none;
     position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -113,22 +116,26 @@ p {
 }
 
 .modal-content {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     color: gold;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 50px;
+    border-radius: 30px;
     text-align: center;
-    width: 300px;
+    width: 1200px;
+    height: 600px;
     position: relative;
 }
 
 .modal-content input {
-    width: 90%;
+    width: 100%;
     margin: 10px 0;
-    padding: 10px;
+    padding:10px;
     border: 1px solid gold;
     border-radius: 5px;
     background-color: black;
+    color: gold;
     color: gold;
 }
 
@@ -139,4 +146,10 @@ p {
     font-size: 1.5rem;
     cursor: pointer;
     color: gold;
+}
+
+.subbut{
+    color: gold;
+    height: 40px;
+    width: 100px;
 }
