@@ -34,3 +34,6 @@ window.addEventListener('click', (event) => {
         preRegisterModal.style.display = 'none';
     }
 });
+closeModal.addEventListener('click', () => {
+    preRegisterModal.style.display = 'none';
+  });
