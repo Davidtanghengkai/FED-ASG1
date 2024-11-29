@@ -37,11 +37,18 @@
             <span class="close" id="closeModal">&times;</span>
             <h2>Pre-Register</h2>
             <p>Enter your details to pre-register and claim exclusive rewards!</p>
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <button type="submit" class="pre-register">Submit</button>
-            </form>
+            <form id="signupform">
+                <p style="text-align: left;">Enter name :</p>
+                <input type="text"name="text" placeholder="Name" required>
+                <p style="text-align: left;">Enter email :</p>
+                <input name="email" type="email" placeholder="Email" required>
+                <p style="text-align: left;">Enter password :</p>
+                <input type="password" id="pwd" placeholder="password" required>
+                <p style="text-align: left;">Confirm password :</p>
+                <input type="password" id="cfm" placeholder="confirm" required>
+                <button type="submit" id="subbut" class="pre-register" style="background-color: gold; height: 40px; width: 100px;">Submit</button>
+                <p id="errormsg" style="color:red;display: none;">Passwords do not match!</p>
+            </form>
         </div>
     </div>
 
