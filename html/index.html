@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Web App</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="../normalize.css">
     <link rel="stylesheet" href="../styles.css">
 
 </head>
@@ -42,18 +42,22 @@
             <form id="signupform">
                 <p style="text-align: left;">enter name :</p>
                 <input type="text"name="text" placeholder="Name" required>
+
                 <p style="text-align: left;">enter email :</p>
                 <input name="email" type="email" placeholder="Email" required>
+
                 <p style="text-align: left;">enter password :</p>
                 <input type="password" id="pwd" placeholder="password" required>
+
                 <p style="text-align: left;">confirm password :</p>
                 <input type="password" id="cfm" placeholder="confirm" required>
+                
                 <button type="submit" id="subbut" class="pre-register" style="background-color: gold; height: 40px; width: 100px;">Submit</button>
                 <p id="errormsg" style="color:red;display: none;">Passwords do not match!</p>
             </form>
         </div>
     </div>
 
-    <script src="javascript.js"></script>
+    <script src="../javascript.js"></script>
 </body>
 </html> 
