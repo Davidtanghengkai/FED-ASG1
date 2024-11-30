@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     font-family: Arial, sans-serif;
-    background-image: url('GoW Egypt.jpg');
+    background-image: url('images/Gow\ Egypt.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 /* Top Bar */
 .top-bar {
@@ -61,7 +62,6 @@ body {
     text-align: center;
     padding: 3%;
     min-height: 40vh;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Content Section */
@@ -73,7 +73,6 @@ body {
     text-align: center;
     padding: 10px;
     min-height: 50vh; /* Adjusted for full viewport */
-    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
@@ -158,6 +157,32 @@ p {
     color: gold;
 }
 
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  
+  .item {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .item img {
+    width: 10%;
+    height: auto;
+  }
+.Title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+
+}
 /* Responsive Styles */
 
 /* For screens up to 768px */
