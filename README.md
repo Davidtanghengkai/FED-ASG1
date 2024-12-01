@@ -12,6 +12,8 @@ Javascript with Input validation for passwords <br>
 
 Credits:
 
+Media:
+
 Item1:
 
 chatgpt.com
@@ -23,5 +25,12 @@ Item3: chatgpt.com
 Logo: https://www.pinterest.com/pin/alpha-and-omega--743094007266199790/
 
 background: https://www.peakpx.com/en/hd-wallpaper-desktop-nherw
+
+Acknowledgements:
+
+I have recieved heavy inspirations from God of War Ragnarock and the God of War series in general
+
+
+
 
 
